@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito Sans";
+  font-weight: 800;
+}
+
+.site-header {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+  background-color: #fff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  margin-bottom: 48px;
+}
+
+.container {
+  width: 1213px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-title {
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
+  margin: 0;
+}
+.site-header-dark-mode {
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode-img {
+  width: 15px;
+  height: 13.75px;
+  margin-right: 10px;
+}
+
+.site-header-dark-mode-title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #111517;
+  margin: 0;
+}
+
+.site-header-title-link {
+  text-decoration: none;
+}
+
+.form-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-search {
+  background-color: #fff;
+  background-image: url(../images/search.svg);
+  background-repeat: no-repeat;
+  background-position: 32px 19px;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  width: 480px;
+  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 74px;
+}
+::placeholder {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #848484;
+}
+.input-search:focus {
+  border: 0px solid black;
+}
+
+.select {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 24px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #111517;
+}
+option {
+  padding: 50px;
+  width: 400px;
+  height: 300px;
+}
