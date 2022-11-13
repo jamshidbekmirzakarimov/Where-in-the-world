@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
 
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -10,10 +13,9 @@ body {
 
 .site-header {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
-  background-color: #fff;
   padding-top: 23px;
   padding-bottom: 23px;
-  margin-bottom: 48px;
+ 
 }
 
 .container {
@@ -61,10 +63,21 @@ body {
   text-decoration: none;
 }
 
+.country-section {
+  padding-top: 48px;
+  padding-bottom: 45px;
+  background-color: #F2F2F2;
+}
+
+.country-img-link{
+  text-decoration: none;
+}
+
 .form-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 
 .input-search {
@@ -79,19 +92,13 @@ body {
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 74px;
+  margin: 0;
 }
 ::placeholder {
-  font-family: "Nunito Sans";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
   color: #848484;
-}
-.input-search:focus {
-  border: 0px solid black;
 }
 
 .select {
@@ -110,8 +117,77 @@ body {
   line-height: 20px;
   color: #111517;
 }
-option {
-  padding: 50px;
-  width: 400px;
-  height: 300px;
+.select option {
+  background-color: #fff;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  border: none;
 }
+
+.country-section-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  justify-content: space-between;
+}
+
+.country-section-item {
+  background: #ffffff;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+  margin-top: 0;
+  width: 264px;
+  margin-bottom: 63px;
+}
+
+.country-section-item:nth-child(5){
+  margin-bottom: 0px;
+}
+.country-section-item:nth-child(6){
+  margin-bottom: 0px;
+}
+.country-section-item:nth-child(7){
+  margin-bottom: 0px;
+}
+.country-section-item:nth-child(8){
+  margin-bottom: 0px;
+}
+
+.country-img {
+  width: 264px;
+  height: 160px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.country-section--title-box {
+  padding: 24px 0px 46px 24px;
+}
+
+.country-section--title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #111517;
+}
+.country-section-subtitle{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.country-section-subtitle:last-child{
+  margin-bottom: 0;
+}
+.country-section-subtitle-bold{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+}
+
