@@ -13,11 +13,10 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
   padding-top: 23px;
   padding-bottom: 23px;
- 
 }
 
 .container {
-  width: 1213px;
+  width: 1245px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -61,3 +60,118 @@ body {
   text-decoration: none;
 }
 /* *********** site header end ************* */
+
+/* ************** site-article start ************** */
+.site-article {
+  padding-top: 80px;
+  padding-bottom: 260px;
+}
+
+.site-article-back {
+  display: flex;
+  background: #fff;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  width: 136px;
+  padding-left: 32px;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.arrow-left {
+  margin-right: 10px;
+}
+
+.article-title-back {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111517;
+}
+
+.country-img {
+  width: 560px;
+  border-radius: 6px;
+  margin-right: 120px;
+}
+
+.site-article-wrapper {
+  display: flex;
+}
+
+.site-article-text-start-title {
+  font-size: 32px;
+  line-height: 44px;
+  color: #111517;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.site-article-text-start-subtitle {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111517;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.site-article-text-start-subtitle__bold {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111517;
+  margin-top: 0;
+}
+
+.site-article-text-box-start {
+  display: flex;
+}
+
+.site-article-text-box-start-title {
+  margin-left: 75px;
+}
+
+.site-article-text-box-start-title:first-child {
+  margin-left: 0;
+  width: 207px;
+}
+
+.site-article-border-country-box {
+  display: flex;
+  align-items: center;
+  margin-top: 54px;
+}
+
+.site-article-border-country {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111517;
+  margin-right: 15px;
+}
+.site-article-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.site-article-item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #111517;
+  margin-left: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  padding: 5px 27px;
+}
+/* ************** site-article end ************** */

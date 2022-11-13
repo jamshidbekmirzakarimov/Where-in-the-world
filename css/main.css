@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 body {
+
   font-family: "Nunito Sans";
   font-weight: 800;
 }
@@ -19,7 +20,7 @@ body {
 }
 
 .container {
-  width: 1213px;
+  width: 1245px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -66,7 +67,8 @@ body {
 .country-section {
   padding-top: 48px;
   padding-bottom: 45px;
-  background-color: #F2F2F2;
+  background-color: #F2F2F2;  
+ 
 }
 
 .country-img-link{
@@ -185,7 +187,6 @@ body {
   margin-bottom: 0;
 }
 .country-section-subtitle-bold{
-  font-weight: 800;
   font-size: 14px;
   line-height: 16px;
   color: #111517;
