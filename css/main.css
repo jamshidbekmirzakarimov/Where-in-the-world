@@ -8,6 +8,13 @@
   --text-placeholder-color: #848484;
 }
 
+.theme-dark{
+  --bg-section-color: #202c36;
+  --text-color: #fff;
+  --bg-color: #2b3844;
+  --text-placeholder-color: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,51 +33,56 @@ body {
 }
 
 .container {
-  width: 1245px;
+  width: 100%;
+  max-width: 1245px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.site-header-content {
+.site-header{
+  padding: 24px 0;
+  background-color: var(--bg-color);
+  box-shadow: 0px 2px 4px #0000000e;
+  transition: background-color 0.3s ease;
+}
+
+.site-header__wrapper{
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.site-header-title {
-  font-size: 24px;
-  line-height: 33px;
-  color: var(--text-color);
-  margin: 0;
-}
-.site-header-dark-mode {
-  display: flex;
   align-items: center;
-  text-decoration: none;
 }
 
-.dark-mode-img {
-  width: 15px;
-  height: 13.75px;
-  margin-right: 10px;
+.site-header-logo{
+  color: var(--text-color);    
+  transition: color 0.3s ease;
 }
 
-.site-header-dark-mode-title {
-  font-family: "Nunito Sans";
-  font-style: normal;
+.theme-button{
+  padding-left: 30px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/dark-mode-img.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: var(--text-color);
-  margin: 0;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
-.site-header-title-link {
-  text-decoration: none;
+.theme-dark .theme-button{
+  background-image: url("../images/dark-mode-white.svg");
 }
 
+
+
+/* Header styles end */
+
+/* ******* COUNTRY SECTION START ******* */
 .country-section {
   padding-top: 48px;
   padding-bottom: 45px;
@@ -96,12 +108,17 @@ body {
   background-position: 32px 19px;
   box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
   border-radius: 5px;
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   border: none;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 74px;
+  outline: none;
   margin: 0;
+}
+.theme-dark .input-search{
+  background-image: url(../images/search-white.svg);
 }
 ::placeholder {
   font-weight: 400;
@@ -124,9 +141,9 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #111517;
+  color: var(--text-color);
 }
-.select option {
+.select .option {
   background-color: var(--bg-color);
   margin-bottom: 100px;
   border-radius: 10px;
@@ -139,8 +156,9 @@ body {
   list-style: none;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-top: 0;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
 }
 
 .country-section-item {
@@ -149,20 +167,7 @@ body {
   border-radius: 5px;
   margin-top: 0;
   width: 264px;
-  margin-bottom: 63px;
-}
-
-.country-section-item:nth-child(5){
-  margin-bottom: 0px;
-}
-.country-section-item:nth-child(6){
-  margin-bottom: 0px;
-}
-.country-section-item:nth-child(7){
-  margin-bottom: 0px;
-}
-.country-section-item:nth-child(8){
-  margin-bottom: 0px;
+  
 }
 
 .country-img {
@@ -198,4 +203,7 @@ body {
   line-height: 16px;
   color: var(--text-color);
 }
+
+/* ******* COUNTRY SECTION START ******* */
+/* ****** MAIN START ***** */
 
