@@ -257,6 +257,37 @@ body {
   color: var(--text-color);
 }
 
+
+/* ********** COUNTRY SECTION RESPONSIVE START *********** */
+@media only screen and (max-width: 720px) {
+  .input-search {
+    width: 100%;
+    max-width: 380px;
+  }
+  .select {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .form-box {
+    display: flex;
+    align-items: inherit;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+  .input-search {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .select {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+/* ********** COUNTRY SECTION RESPONSIVE END *********** */
 /* ******* COUNTRY SECTION START ******* */
 /* ****** MAIN START ***** */
 
