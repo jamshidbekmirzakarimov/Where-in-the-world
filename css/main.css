@@ -78,9 +78,62 @@ body {
   background-image: url("../images/dark-mode-white.svg");
 }
 
+/* ******* site header responsive start ***** */
+@media only screen and (max-width: 400px) {
+  .svg{
+    width: 150px;
+    height: 20px;
+  }
 
+  .theme-button{
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/dark-mode-img.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+}
 
-/* Header styles end */
+@media only screen and (max-width: 375px) {
+  .svg{
+    width: 135px;
+    height: 20px;
+  }
+
+  .theme-button{
+    padding-left: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/dark-mode-img.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+}
+
+@media only screen and (max-width: 270px) {
+  .site-header__wrapper{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/* ******* site header responsive end ***** */
+/******** Header styles end *******/
 
 /* ******* COUNTRY SECTION START ******* */
 .country-section {
