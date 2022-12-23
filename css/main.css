@@ -311,6 +311,14 @@ body {
     margin-bottom: 0;
   }
 }
+@media only screen and (max-width: 620px) {
+  .site-article-border-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /* ********** COUNTRY SECTION RESPONSIVE END *********** */
 /* ******* COUNTRY SECTION START ******* */
 /* ****** MAIN START ***** */
